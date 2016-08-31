@@ -23,11 +23,11 @@ console.log(`time elapsed: {time.set('foo')}`); // time elapsed: 2ms
 
 // do some stuff
 console.log(`time elapsed: {time}`); // time elapsed: 10ms
-console.log(`time elapsed: {time}`); // time elapsed: 10ms
-console.log(`time elapsed: {time}`); // time elapsed: 10ms
+console.log(`time elapsed: {time}`); // time elapsed: 5ms
+console.log(`time elapsed: {time}`); // time elapsed: 25ms
 
 // calculate from marker
-console.log(`time elapsed: {time.from('foo')}`); // time elapsed: 30ms
+console.log(`time elapsed: {time.from('foo')}`); // time elapsed: 40ms
 ```
 
 ### notes
