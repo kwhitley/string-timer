@@ -1,6 +1,6 @@
 {
   "name": "string-timer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dead simple inline string timer for benchmarking component runtimes.",
   "main": "./lib/string-timer.js",
   "scripts": {
