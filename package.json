@@ -2,7 +2,11 @@
   "name": "string-timer",
   "version": "0.0.2",
   "description": "Dead simple inline string timer for benchmarking component runtimes.",
-  "main": "./lib/string-timer.js",
+  "main": "./dist/string-timer.js",
+  "files": [
+    "./dist/string-timer.js",
+    "LICENSE"
+  ],
   "scripts": {
     "lint": "eslint src",
     "build": "babel src -d dist"
